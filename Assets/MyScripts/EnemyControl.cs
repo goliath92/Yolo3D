@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using Random = UnityEngine.Random;
 
 public class EnemyControl : MonoBehaviour
 {
@@ -85,5 +87,21 @@ public class EnemyControl : MonoBehaviour
         }
 
         isWandering = false;
+    }
+
+    private void OnTriggerEnter(Collider other) 
+    {
+        if (other.gameObject.CompareTag("Bullet"))        
+        {
+            Debug.Log("test"); 
+            if (enemyHealth > 0)
+            {
+                enemyHealth -= 5;
+            }
+            else if (enemyHealth <= 0)                                  // can 0'a inince düşmanı yok et
+            {
+                gameObject.SetActive(false);
+            }
+        }
     }
 }

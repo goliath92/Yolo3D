@@ -18,4 +18,12 @@ public class BulletControl : MonoBehaviour
         yield return new WaitForSeconds(1);                  // Mermi belirlenen süre kadar hayatta kalır ve sonra yok olur 
         Destroy(gameObject);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))           // mermi düşmana değince yok oluyor
+        {
+            Destroy(gameObject);
+        }
+    }
 }

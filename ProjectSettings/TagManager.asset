@@ -6,6 +6,8 @@ TagManager:
   tags:
   - EnemyRange
   - PlayerRange
+  - Bullet
+  - Enemy
   layers:
   - Default
   - TransparentFX
