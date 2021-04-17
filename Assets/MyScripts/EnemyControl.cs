@@ -14,7 +14,7 @@ public class EnemyControl : MonoBehaviour
     
     void Start()
     {
-        enemyNav = GetComponent<NavMeshAgent>();
+        enemyNav = GetComponent<NavMeshAgent>(); // bu benim yorum satırım Furkan benim
     }
 
     
