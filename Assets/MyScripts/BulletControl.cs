@@ -18,7 +18,7 @@ public class BulletControl : MonoBehaviour
     IEnumerator BulletLife()
     {
         yield return new WaitForSeconds(1);
-        Destroy(gameObject);
+       // Destroy(gameObject);
     }
 
     /*private void OnTriggerEnter(Collider other)            //TODO: burası collider'a giren merminin yok olması tercihen silinebilir
