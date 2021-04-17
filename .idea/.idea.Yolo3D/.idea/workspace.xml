@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="160ea859-9580-4aa1-8943-6c4ee5906e41" name="Default Changelist" comment="" />
+    <list default="true" id="160ea859-9580-4aa1-8943-6c4ee5906e41" name="Default Changelist" comment="sa">
+      <change beforePath="$PROJECT_DIR$/Assets/MyScripts/BulletControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyScripts/BulletControl.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/MyScripts/BulletControl.cs" root0="FORCE_HIGHLIGHTING" />
@@ -21,13 +47,14 @@
         <option value="$PROJECT_DIR$/Assets/MyScripts/CameraControl.cs" />
         <option value="$PROJECT_DIR$/Assets/YENİ.cs" />
         <option value="$PROJECT_DIR$/Assets/RangeScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/MyScripts/EnemyControl.cs" />
         <option value="$PROJECT_DIR$/Assets/MyScripts/PlayerContol.cs" />
+        <option value="$PROJECT_DIR$/Assets/MyScripts/EnemyControl.cs" />
         <option value="$PROJECT_DIR$/Assets/MyScripts/BulletControl.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1rGWhS1DveDvJ8OA57RGPLjBRlB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -74,7 +101,16 @@
       <workItem from="1618652685694" duration="158000" />
       <workItem from="1618652882168" duration="6098000" />
       <workItem from="1618670644775" duration="6821000" />
+      <workItem from="1618681847689" duration="620000" />
     </task>
+    <task id="LOCAL-00001" summary="sa">
+      <created>1618681955939</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618681955939</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,10 +118,27 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="sa" />
+    <option name="LAST_COMMIT_MESSAGE" value="sa" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1618681974518">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618681974518" />
     <state x="64" y="46" width="1874" height="1015" maximized="true" key="dock-window-1" timestamp="1618653267338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
