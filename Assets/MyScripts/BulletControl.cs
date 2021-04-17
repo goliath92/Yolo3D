@@ -21,7 +21,7 @@ public class BulletControl : MonoBehaviour
         Destroy(gameObject);
     }
 
-    /*private void OnTriggerEnter(Collider other)
+    /*private void OnTriggerEnter(Collider other)            //TODO: burası collider'a giren merminin yok olması tercihen silinebilir
     {
         if (other.gameObject.CompareTag("PlayerRange"))
         {
