@@ -6,8 +6,6 @@ using UnityEngine;
 
 public class BulletControl : MonoBehaviour
 {
-    //public float bulletLifeTime = 10000f;
-    //public float bulletLife;
     void FixedUpdate()
     {
         StartCoroutine(BulletLife());
@@ -17,19 +15,7 @@ public class BulletControl : MonoBehaviour
 
     IEnumerator BulletLife()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(1);                  // Mermi belirlenen süre kadar hayatta kalır ve sonra yok olur 
         Destroy(gameObject);
     }
-
-    /*private void OnTriggerEnter(Collider other)            //TODO: burası collider'a giren merminin yok olması tercihen silinebilir
-    {
-        if (other.gameObject.CompareTag("PlayerRange"))
-        {
-            Destroy(gameObject);
-        }
-        
-    }
-    */
-
-    
 }
