@@ -19,13 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="160ea859-9580-4aa1-8943-6c4ee5906e41" name="Default Changelist" comment="Trigger problemi çözüldü.">
+    <list default="true" id="160ea859-9580-4aa1-8943-6c4ee5906e41" name="Default Changelist" comment="-Düşman öldüğünde obje pasif hale geliyor&#10;- bullet düşmana değdiği zaman yok oluyor">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yolo3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yolo3D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyPrefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyPrefabs/Bullet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyScripts/BulletControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyScripts/BulletControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyScripts/EnemyControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyScripts/EnemyControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyMaterials/green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyMaterials/green.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyScripts/PlayerContol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyScripts/PlayerContol.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +52,9 @@
         <option value="$PROJECT_DIR$/Assets/MyScripts/CameraControl.cs" />
         <option value="$PROJECT_DIR$/Assets/YENİ.cs" />
         <option value="$PROJECT_DIR$/Assets/RangeScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/MyScripts/PlayerContol.cs" />
         <option value="$PROJECT_DIR$/Assets/MyScripts/EnemyControl.cs" />
         <option value="$PROJECT_DIR$/Assets/MyScripts/BulletControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/MyScripts/PlayerContol.cs" />
       </list>
     </option>
   </component>
@@ -133,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618686106997</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-Düşman öldüğünde obje pasif hale geliyor&#10;- bullet düşmana değdiği zaman yok oluyor">
+      <created>1618687726083</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618687726083</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +162,8 @@
     <MESSAGE value="sa" />
     <MESSAGE value="Ateş etme en güncelinde" />
     <MESSAGE value="Trigger problemi çözüldü." />
-    <option name="LAST_COMMIT_MESSAGE" value="Trigger problemi çözüldü." />
+    <MESSAGE value="-Düşman öldüğünde obje pasif hale geliyor&#10;- bullet düşmana değdiği zaman yok oluyor" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Düşman öldüğünde obje pasif hale geliyor&#10;- bullet düşmana değdiği zaman yok oluyor" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1876" height="369" key="GridCell.Tab.0.bottom" timestamp="1618685583366">
@@ -224,10 +230,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="369" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618685583367" />
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1618686210068">
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1618687730883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618686210068" />
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618687730883" />
     <state x="64" y="46" width="1874" height="1015" maximized="true" key="dock-window-1" timestamp="1618653267338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

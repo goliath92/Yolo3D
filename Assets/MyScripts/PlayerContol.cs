@@ -8,6 +8,8 @@ using UnityEngine.UI;
 public class PlayerContol : MonoBehaviour
 {
 
+
+    public Image healthBar;
     public Text playerHealthText;
     public int playerHealth = 100;
 
@@ -36,7 +38,7 @@ public class PlayerContol : MonoBehaviour
 
     void Update()
     {
-        playerHealthText.text = "Health: " + playerHealth; // UI üzerinde canı gösterme
+        //playerHealthText.text = "Health: " + playerHealth;                                                              //TODO: Bu kısım canı sayı ile yazıyor, health bar mı kalsın yoksa bunla devam mı
 
         isGrounded = Physics.CheckSphere(groundCheck.position, offset, groundLayer);
 
@@ -80,7 +82,8 @@ public class PlayerContol : MonoBehaviour
             {
                 nextDamage = Time.time + damageRate;
                 playerHealth -= 20;
-                Debug.Log("TETİK");
+                healthBar.fillAmount -= 0.2f;
+
             }
         }
     }
