@@ -70,22 +70,18 @@ public class PlayerContol : MonoBehaviour
             bulletObj.GetComponent<Rigidbody>()
                 .AddForce((bulletPoint.position - bulletPosition.position).normalized * 900);
         }
-
-
-        void OnTriggerStay(Collider other)
+    }
+    
+    void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.CompareTag("EnemyRange"))                                                   // range içerisine girilince 3f cooldown sonrası saldırı alıyoruz
         {
-            if (other.gameObject.CompareTag("EnemyRange"))                                                   // range içerisine girilince 3f cooldown sonrası saldırı alıyoruz
+            if (Time.time > nextDamage)
             {
-                if (Time.time > nextDamage)
-                {
-                    nextDamage = Time.time + damageRate;
-                    playerHealth -= 20;
-                }
+                nextDamage = Time.time + damageRate;
+                playerHealth -= 20;
+                Debug.Log("TETİK");
             }
         }
-
-
-
-
     }
 }

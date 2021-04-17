@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="160ea859-9580-4aa1-8943-6c4ee5906e41" name="Default Changelist" comment="sa">
-      <change beforePath="$PROJECT_DIR$/Assets/MyScripts/BulletControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyScripts/BulletControl.cs" afterDir="false" />
+    <list default="true" id="160ea859-9580-4aa1-8943-6c4ee5906e41" name="Default Changelist" comment="Ateş etme en güncelinde">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yolo3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yolo3D/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyScripts/PlayerContol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyScripts/PlayerContol.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/MyScripts/BulletControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyScripts/CameraControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Unity/Projects/Yolo3D/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyScripts/EnemyControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Unity/Projects/Yolo3D/Assets/MyScripts/BulletControl.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -47,9 +50,9 @@
         <option value="$PROJECT_DIR$/Assets/MyScripts/CameraControl.cs" />
         <option value="$PROJECT_DIR$/Assets/YENİ.cs" />
         <option value="$PROJECT_DIR$/Assets/RangeScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/MyScripts/PlayerContol.cs" />
         <option value="$PROJECT_DIR$/Assets/MyScripts/EnemyControl.cs" />
         <option value="$PROJECT_DIR$/Assets/MyScripts/BulletControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/MyScripts/PlayerContol.cs" />
       </list>
     </option>
   </component>
@@ -60,6 +63,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3501355" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.300271" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -75,10 +80,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12696">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="12696" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -110,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618681955939</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ateş etme en güncelinde">
+      <created>1618684139365</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618684139365</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,13 +144,78 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="sa" />
-    <option name="LAST_COMMIT_MESSAGE" value="sa" />
+    <MESSAGE value="Ateş etme en güncelinde" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ateş etme en güncelinde" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1618681974518">
+    <state width="1876" height="369" key="GridCell.Tab.0.bottom" timestamp="1618685583366">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618681974518" />
+    <state width="1876" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618685583366" />
+    <state width="1876" height="369" key="GridCell.Tab.0.center" timestamp="1618685583366">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="369" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618685583366" />
+    <state width="1876" height="369" key="GridCell.Tab.0.left" timestamp="1618685583366">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="369" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618685583366" />
+    <state width="1876" height="369" key="GridCell.Tab.0.right" timestamp="1618685583366">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="369" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618685583366" />
+    <state width="1876" height="369" key="GridCell.Tab.1.bottom" timestamp="1618685583367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="369" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618685583367" />
+    <state width="1876" height="369" key="GridCell.Tab.1.center" timestamp="1618685583367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="369" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618685583367" />
+    <state width="1876" height="369" key="GridCell.Tab.1.left" timestamp="1618685583366">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="369" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618685583366" />
+    <state width="1876" height="369" key="GridCell.Tab.1.right" timestamp="1618685583367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="369" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618685583367" />
+    <state width="1876" height="369" key="GridCell.Tab.2.bottom" timestamp="1618685583367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="369" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618685583367" />
+    <state width="1876" height="369" key="GridCell.Tab.2.center" timestamp="1618685583367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="369" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618685583367" />
+    <state width="1876" height="369" key="GridCell.Tab.2.left" timestamp="1618685583367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="369" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618685583367" />
+    <state width="1876" height="369" key="GridCell.Tab.2.right" timestamp="1618685583367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="369" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618685583367" />
+    <state width="1876" height="369" key="GridCell.Tab.3.bottom" timestamp="1618685583367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="369" key="GridCell.Tab.3.bottom/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618685583367" />
+    <state width="1876" height="369" key="GridCell.Tab.3.center" timestamp="1618685583367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="369" key="GridCell.Tab.3.center/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618685583367" />
+    <state width="1876" height="369" key="GridCell.Tab.3.left" timestamp="1618685583367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="369" key="GridCell.Tab.3.left/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618685583367" />
+    <state width="1876" height="369" key="GridCell.Tab.3.right" timestamp="1618685583367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="369" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618685583367" />
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1618684153829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618684153829" />
     <state x="64" y="46" width="1874" height="1015" maximized="true" key="dock-window-1" timestamp="1618653267338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
