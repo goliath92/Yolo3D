@@ -93,7 +93,6 @@ public class EnemyControl : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Bullet"))        
         {
-            Debug.Log("test"); 
             if (enemyHealth > 0)
             {
                 enemyHealth -= 5;

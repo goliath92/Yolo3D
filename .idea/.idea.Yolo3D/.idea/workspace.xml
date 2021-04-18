@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="160ea859-9580-4aa1-8943-6c4ee5906e41" name="Default Changelist" comment="Version 2020.3.3f1" />
+    <list default="true" id="160ea859-9580-4aa1-8943-6c4ee5906e41" name="Default Changelist" comment="scene" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,6 +105,7 @@
       <workItem from="1618681847689" duration="620000" />
       <workItem from="1618735920365" duration="248000" />
       <workItem from="1618736258300" duration="135000" />
+      <workItem from="1618736582264" duration="263000" />
     </task>
     <task id="LOCAL-00001" summary="sa">
       <created>1618681955939</created>
@@ -169,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618736353783</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="scene">
+      <created>1618736709623</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1618736709623</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +205,8 @@
     <MESSAGE value="-Düşman öldüğünde obje pasif hale geliyor&#10;- bullet düşmana değdiği zaman yok oluyor" />
     <MESSAGE value="-HealthBar geliştirmesi yapıldı." />
     <MESSAGE value="Version 2020.3.3f1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 2020.3.3f1" />
+    <MESSAGE value="scene" />
+    <option name="LAST_COMMIT_MESSAGE" value="scene" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1876" height="369" key="GridCell.Tab.0.bottom" timestamp="1618701849311">
