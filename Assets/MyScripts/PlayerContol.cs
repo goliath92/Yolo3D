@@ -33,6 +33,12 @@ public class PlayerContol : MonoBehaviour
     public Transform bulletPosition;
     public Transform bulletPoint;
 
+    public int mask = 0;
+    public float maskLife;
+    private float maskLifeTime = 1f;
+    public Image maskBar;
+    
+    
 
 
 
@@ -73,18 +79,55 @@ public class PlayerContol : MonoBehaviour
                 .AddForce((bulletPoint.position - bulletPosition.position).normalized * 900);
         }
     }
-    
+
+    private void FixedUpdate()
+    {
+        if (mask > 0)
+        {
+            if (Time.time > maskLife)
+            {
+               
+                maskLife = Time.time + maskLifeTime;
+                mask -= 10;
+                maskBar.fillAmount -= 0.1f;
+
+
+            }
+        } 
+    }
+
     void OnTriggerStay(Collider other)
     {
         if (other.gameObject.CompareTag("EnemyRange"))                                                   // range içerisine girilince 3f cooldown sonrası saldırı alıyoruz
         {
-            if (Time.time > nextDamage)
+            if (mask <= 0)
             {
-                nextDamage = Time.time + damageRate;
-                playerHealth -= 20;
-                healthBar.fillAmount -= 0.2f;
-
+                if (Time.time > nextDamage)
+                {
+                    nextDamage = Time.time + damageRate;
+                    playerHealth -= 20;
+                    healthBar.fillAmount -= 0.2f;
+                }
             }
+            else if (mask > 0)
+            {
+                if (Time.time>nextDamage)
+                {
+                    nextDamage = Time.time + damageRate;
+                    playerHealth -= 5;
+                    healthBar.fillAmount -= 0.05f;
+                }
+                
+            }
+            
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Mask"))
+        {
+            mask += 100;
         }
     }
 }

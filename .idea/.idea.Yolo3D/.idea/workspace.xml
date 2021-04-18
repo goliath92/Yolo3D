@@ -19,16 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="160ea859-9580-4aa1-8943-6c4ee5906e41" name="Default Changelist" comment="scene">
+    <list default="true" id="160ea859-9580-4aa1-8943-6c4ee5906e41" name="Default Changelist" comment="Design">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yolo3D/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yolo3D/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yolo3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yolo3D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Soja Exiles/Hospital Medical Office Modular/Prefabs/Rooms/Diagnostics Room_03.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Soja Exiles/Hospital Medical Office Modular/Prefabs/Rooms/Diagnostics Room_03.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Soja Exiles/Hospital Medical Office Modular/Prefabs/Rooms/MRI Room.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Soja Exiles/Hospital Medical Office Modular/Prefabs/Rooms/MRI Room.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Soja Exiles/Hospital Medical Office Modular/Prefabs/Rooms/Recovery Room.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Soja Exiles/Hospital Medical Office Modular/Prefabs/Rooms/Recovery Room.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Soja Exiles/Hospital Medical Office Modular/Prefabs/Structures/Structure_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Soja Exiles/Hospital Medical Office Modular/Prefabs/Structures/Structure_01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Soja Exiles/SE Basic Assets/Prefabs/Base Room Scene.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Soja Exiles/SE Basic Assets/Prefabs/Base Room Scene.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyScripts/PlayerContol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyScripts/PlayerContol.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +52,10 @@
         <option value="$PROJECT_DIR$/Assets/YENİ.cs" />
         <option value="$PROJECT_DIR$/Assets/RangeScript.cs" />
         <option value="$PROJECT_DIR$/Assets/MyScripts/BulletControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/MyScripts/PlayerContol.cs" />
         <option value="$PROJECT_DIR$/Assets/MyScripts/GameUIscript.cs" />
         <option value="$PROJECT_DIR$/Assets/MyScripts/EnemyControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/MaskScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/MyScripts/PlayerContol.cs" />
       </list>
     </option>
   </component>
@@ -115,7 +112,8 @@
       <workItem from="1618681847689" duration="620000" />
       <workItem from="1618735920365" duration="248000" />
       <workItem from="1618736258300" duration="135000" />
-      <workItem from="1618736582264" duration="1949000" />
+      <workItem from="1618736582264" duration="2031000" />
+      <workItem from="1618745059585" duration="2327000" />
     </task>
     <task id="LOCAL-00001" summary="sa">
       <created>1618681955939</created>
@@ -297,10 +295,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="369" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618701849312" />
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1618737506208">
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1618741734254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618737506208" />
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618741734254" />
     <state x="64" y="46" width="1874" height="1015" maximized="true" key="dock-window-1" timestamp="1618653267338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
