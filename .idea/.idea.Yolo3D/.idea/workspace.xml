@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="160ea859-9580-4aa1-8943-6c4ee5906e41" name="Default Changelist" comment="Design">
+    <list default="true" id="160ea859-9580-4aa1-8943-6c4ee5906e41" name="Default Changelist" comment="del">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yolo3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yolo3D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyScripts/PlayerContol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyScripts/PlayerContol.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaskScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MaskScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +51,8 @@
         <option value="$PROJECT_DIR$/Assets/MyScripts/BulletControl.cs" />
         <option value="$PROJECT_DIR$/Assets/MyScripts/GameUIscript.cs" />
         <option value="$PROJECT_DIR$/Assets/MyScripts/EnemyControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/MaskScript.cs" />
         <option value="$PROJECT_DIR$/Assets/MyScripts/PlayerContol.cs" />
+        <option value="$PROJECT_DIR$/Assets/MaskScript.cs" />
       </list>
     </option>
   </component>
@@ -110,7 +110,7 @@
       <workItem from="1618735920365" duration="248000" />
       <workItem from="1618736258300" duration="135000" />
       <workItem from="1618736582264" duration="2031000" />
-      <workItem from="1618745059585" duration="3972000" />
+      <workItem from="1618745059585" duration="5161000" />
     </task>
     <task id="LOCAL-00001" summary="sa">
       <created>1618681955939</created>
@@ -196,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618737490729</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="del">
+      <created>1618749083254</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1618749083254</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +232,8 @@
     <MESSAGE value="-HealthBar geliştirmesi yapıldı." />
     <MESSAGE value="Version 2020.3.3f1" />
     <MESSAGE value="scene" />
-    <option name="LAST_COMMIT_MESSAGE" value="scene" />
+    <MESSAGE value="del" />
+    <option name="LAST_COMMIT_MESSAGE" value="del" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1876" height="369" key="GridCell.Tab.0.bottom" timestamp="1618701849311">
@@ -292,10 +300,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="369" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618701849312" />
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1618741734254">
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1618749104577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618741734254" />
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618749104577" />
     <state x="64" y="46" width="1874" height="1015" maximized="true" key="dock-window-1" timestamp="1618653267338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
