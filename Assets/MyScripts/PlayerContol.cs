@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class PlayerContol : MonoBehaviour
@@ -93,7 +94,12 @@ public class PlayerContol : MonoBehaviour
 
 
             }
-        } 
+        }
+
+        if (playerHealth <= 0)
+        {
+            PlayerDeath();
+        }
     }
 
     void OnTriggerStay(Collider other)
@@ -122,6 +128,13 @@ public class PlayerContol : MonoBehaviour
             
         }
     }
+
+    void PlayerDeath()
+    {
+        Time.timeScale = 0f;
+    }
+
+    
 
     private void OnTriggerEnter(Collider other)
     {

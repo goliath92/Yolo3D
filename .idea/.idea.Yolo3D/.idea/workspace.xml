@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="160ea859-9580-4aa1-8943-6c4ee5906e41" name="Default Changelist" comment="Design">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yolo3D/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yolo3D/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yolo3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yolo3D/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MyScripts/PlayerContol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyScripts/PlayerContol.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +110,7 @@
       <workItem from="1618735920365" duration="248000" />
       <workItem from="1618736258300" duration="135000" />
       <workItem from="1618736582264" duration="2031000" />
-      <workItem from="1618745059585" duration="2327000" />
+      <workItem from="1618745059585" duration="3477000" />
     </task>
     <task id="LOCAL-00001" summary="sa">
       <created>1618681955939</created>
