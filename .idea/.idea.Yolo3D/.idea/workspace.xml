@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="160ea859-9580-4aa1-8943-6c4ee5906e41" name="Default Changelist" comment="-HealthBar geliştirmesi yapıldı.">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yolo3D/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yolo3D/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yolo3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yolo3D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="160ea859-9580-4aa1-8943-6c4ee5906e41" name="Default Changelist" comment="Version 2020.3.3f1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,10 +34,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/MyScripts/BulletControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyScripts/CameraControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/Unity/Projects/Yolo3D/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MyScripts/GameUIscript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyScripts/EnemyControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/Unity/Projects/Yolo3D/Assets/MyScripts/BulletControl.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -112,6 +103,7 @@
       <workItem from="1618652882168" duration="6098000" />
       <workItem from="1618670644775" duration="6821000" />
       <workItem from="1618681847689" duration="620000" />
+      <workItem from="1618735920365" duration="248000" />
     </task>
     <task id="LOCAL-00001" summary="sa">
       <created>1618681955939</created>
@@ -162,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618691573462</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Version 2020.3.3f1">
+      <created>1618736004595</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618736004595</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +179,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -188,7 +188,8 @@
     <MESSAGE value="Trigger problemi çözüldü." />
     <MESSAGE value="-Düşman öldüğünde obje pasif hale geliyor&#10;- bullet düşmana değdiği zaman yok oluyor" />
     <MESSAGE value="-HealthBar geliştirmesi yapıldı." />
-    <option name="LAST_COMMIT_MESSAGE" value="-HealthBar geliştirmesi yapıldı." />
+    <MESSAGE value="Version 2020.3.3f1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 2020.3.3f1" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1876" height="369" key="GridCell.Tab.0.bottom" timestamp="1618701849311">
@@ -255,10 +256,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="369" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618701849312" />
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1618691575456">
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1618736171491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618691575456" />
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1618736171491" />
     <state x="64" y="46" width="1874" height="1015" maximized="true" key="dock-window-1" timestamp="1618653267338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
